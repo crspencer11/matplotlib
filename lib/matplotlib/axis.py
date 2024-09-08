@@ -1103,16 +1103,16 @@ class Axis(martist.Artist):
         # axis specific mappings
         axis_mappings = {
             'x': {
-                'top': 'tick20n',
-                'bottom': 'tick10n',
-                'labelbottom': 'label10n',
-                'labeltop': 'label20n',
+                'top': 'tick2On',
+                'bottom': 'tick1On',
+                'labelbottom': 'label1On',
+                'labeltop': 'label2On',
             },
             'y': {
-                'left': 'tick10n',
-                'right': 'tick20n',
-                'labelleft': 'label10n',
-                'labelright': 'label20n',
+                'left': 'tick1On',
+                'right': 'tick2On',
+                'labelleft': 'label1On',
+                'labelright': 'label2On',
             }
         }
 
